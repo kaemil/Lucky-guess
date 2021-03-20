@@ -2,7 +2,7 @@
 
 
 **Description:**
-Simple interactive 
+Simple interactive guessing number page.
 
 **Why:**
 This project was created to practice java script functions, CSS formatting and HTML tags.
@@ -11,5 +11,5 @@ This project was created to practice java script functions, CSS formatting and H
 - HTML5
 - CSS3
 - SCSS
-- BEM methodology
+- JS
 
