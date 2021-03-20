@@ -2,10 +2,10 @@
 
 
 **Description:**
-Simple RWD information form.
+Simple interactive 
 
 **Why:**
-This project was created to practice flexbox layout module and html form tags.
+This project was created to practice java script functions, CSS formatting and HTML tags.
 
 **Skills used:**
 - HTML5
