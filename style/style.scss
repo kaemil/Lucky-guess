@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #ffffff;
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    padding: 50px;
+    max-width: 300px;
+    margin: 100px auto 0 auto;
+    border-radius: 30px;
+    background-color: #a3a3a3;
+
+    &__guessField {
+        border-radius: 30px;
+        width: 150px;
+        padding: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 2px solid #696969;
+        outline: none;
+        background-color: #ffffff;
+    }
+
+    &__guessSubmit {
+        border-radius: 30px;
+        background-color: #ffffff;
+        width: 150px;
+        padding: 10px;
+        margin-top: 10px;
+        outline: none;
+        border: 2px solid #696969;
+    }
+
+    &__resetButton {
+        border-radius: 30px;
+        border: 2px solid #696969;
+        width: 150px;
+        padding: 10px;
+        outline: none;
+    }
+
+    &__guessField:focus {
+        background-color: #bdbdbd;
+    }
+
+    &__guessField:hover {
+        background-color: #bdbdbd;
+    }
+
+    &__guessSubmit:focus {
+        background-color: #bdbdbd;
+    }
+
+    &__guessSubmit:hover {
+        background-color: #bdbdbd;
+    }
+
+    &__resetButton:focus {
+        background-color: #dadada;
+    }
+
+    &__resetButton:hover {
+        background-color: #dadada;
+    }
+}
+
+.container--win {
+    color: #ffffff;
+    background-color: #67a26c;
+
+    .container {
+        &__resultMessage {
+            font-weight: bold;
+        }
+
+        &__resetButton {
+            background-color: #548758;
+            border-color: #548758;
+            color: #ffffff;
+        }
+
+        &__resetButton:hover {
+            background-color: #67a26c;
+        }
+
+        &__resetButton:focus {
+            background-color: #67a26c;
+        }
+
+        &__guessSubmit {
+            color: #ffffff;
+            background-color: #67a26c;
+        }
+
+        &__guessField {
+            color: #ffffff;
+            background-color: #67a26c;
+        }
+    }
+}
+
+.container--lose {
+    color: #ffffff;
+    background-color: #f19b93;
+
+    .container {
+        &__resultMessage {
+            font-weight: bold;
+        }
+
+        &__resetButton {
+            background-color: #e3655b;
+            border-color: #e3655b;
+            color: #ffffff;
+        }
+
+        &__resetButton:hover {
+            background-color: #f19b93;
+        }
+
+        &__resetButton:focus {
+            background-color: #f19b93;
+        }
+
+        &__guessSubmit {
+            color: #ffffff;
+            background-color: #f19b93;
+        }
+
+        &__guessField {
+            color: #ffffff;
+            background-color: #f19b93;
+        }
+    }
+}

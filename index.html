@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky guess</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" type='text/css'>
+</head>
+
+<body>
+    <div class="container ">
+        <h1>Lucky Gue$$</h1>
+        <p>Check if you are lucky. Enter a number from 1 to 10. You have only one try.</p>
+        <div>
+            <label for="container__guessField">Enter your number</label>
+            <br>
+            <input type="text" autocomplete="off" class="container__guessField" id="guessField">
+            <br>
+            <input type="submit" value="Check" class="container__guessSubmit">
+        </div>
+        <div class="container__resultParas">
+            <p class="container__resultUser"></p>
+            <p class="container__resultMessage"></p>
+        </div>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
