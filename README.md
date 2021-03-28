@@ -1,6 +1,5 @@
 # Lucky-guess
 
-
 **Description:**
 Simple interactive guessing number page.
 
@@ -12,4 +11,4 @@ This project was created to practice java script functions, CSS formatting and H
 - CSS3
 - SCSS
 - JS
-
+- BEM methodology
